@@ -1,0 +1,13 @@
+[project]
+name = "advent-wallpaper"
+version = "0.1.0"
+description = "Render Advent of Code inspired ASCII scenes as desktop wallpapers"
+requires-python = ">=3.10"
+dependencies = ["Pillow>=10.0"]
+
+[project.scripts]
+advent-wallpaper = "advent_wallpaper.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
